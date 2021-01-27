@@ -1,0 +1,48 @@
+.pswles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.pswles > a {
+    margin-top: 0.5rem;
+    margin-right:1rem;
+}
+
+.locationcard {
+    display:block;
+    position:relative;
+    height:320px;
+    width:270px;
+    text-align: center;
+    border: 1px solid var(--brand-darkened);
+    border-radius: 4px;
+    transition: background-color 0.1s, transform 0.1s, box-shadow 0.1s;
+    box-shadow: 2px 2px 0 0 rgba(61, 74, 62, 1);
+    text-decoration: none;
+}
+
+.imgcontainer {
+    height:250px;
+    width:100%;
+    overflow:hidden;
+}
+
+.imgcontainer img {
+    height:100%;
+    width:100%;
+    background:  center center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.asdfcontent {
+    position:absolute;
+    width:100%;
+    font-size:20px;
+    font-weight:600px;
+    text-align: center;
+    padding:20px 30px;
+}

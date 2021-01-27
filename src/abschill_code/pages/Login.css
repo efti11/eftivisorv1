@@ -1,0 +1,25 @@
+.modalLogin {
+    display:block;
+    box-sizing:border-box;
+    position:fixed;
+    border:2px solid black;
+    width:328px;
+    padding:40px 45px 30px;
+    background-color: white;
+    color:black;
+    left:15%;
+    top:30%;
+}
+
+.loginheader{
+width:auto;
+height:32px;
+margin-left:20px;
+}
+
+@media (min-width: 600px) {
+    .modalLogin {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

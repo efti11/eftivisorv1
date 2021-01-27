@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 
 import Layout from './Layout.jsx';
 import Home from './pages/Home.jsx';
+import Login from './pages/Login.jsx';
+import Restaurants from './pages/Restaurants.jsx';
+import NightLife from './pages/Nightlife.jsx';
 import { Route, Switch } from 'react-router-dom';
 const App = () => {
     const [query, setQuery] = useState(null);
@@ -16,11 +19,17 @@ const App = () => {
                 <Route path="/hotels">
                     Hotels in {query}
                 </Route>
-                <Route path="/top">
-                    Top Rated in {query}
+
+                <Route path="/Login">
+                     <Login /> 
                 </Route>
-                <Route path="/reviews">
-                    Reviews in {query}
+
+                <Route path="/Restaurants">
+                    <Restaurants />
+                </Route>
+
+                <Route path="/NightLife">
+                    <NightLife />
                 </Route>
                 <Route path="/login">
                     Login

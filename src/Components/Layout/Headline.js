@@ -2,8 +2,8 @@ import styled , {css} from 'styled-components';
 import React, { useState } from 'react';
 
 export const Headline = styled.div`
-margin-top:50px;
-margin-bottom: 42px;
+margin-top:30px;
+margin-bottom: 20px;
 position: relative;
 text-align: center;
 
